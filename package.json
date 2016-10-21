@@ -1,0 +1,20 @@
+{
+	"name": "svg-fontify",
+	"version": "0.0.1",
+	"description": "Make font from all svgs given.",
+	"license": "MIT",
+	"repository": "WebArtWork/svg-fontify",
+	"authors": [{
+		"name": "Honchar Denys",
+		"email": "crackeraki@gmail.com"
+	}],
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"main": "./index.js",
+	"keywords": [
+		"fontify",
+		"svgs",
+		"fonts"
+	]
+}
