@@ -11,7 +11,7 @@ module.exports = function(config) {
 		if (lines[lines.length - 1].indexOf(files.toString() + config.way + config.prefix) > -1) return;
 	}
 	webfontsGenerator({
-		fontName: config.name
+		fontName: config.name,
 		files: files,
 		dest: config.way
 	}, function(error) {
