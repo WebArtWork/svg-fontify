@@ -1,6 +1,6 @@
 {
 	"name": "svg-fontify",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"description": "Make font from all svgs given.",
 	"license": "MIT",
 	"repository": "WebArtWork/svg-fontify",

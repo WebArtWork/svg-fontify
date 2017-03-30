@@ -10,6 +10,7 @@ module.exports = function(config) {
 		var lines = data.split("\n");
 		if (lines[lines.length - 1].indexOf(files.toString() + config.way + config.prefix) > -1) return;
 	}
+	if(files.length) return;
 	webfontsGenerator({
 		fontName: config.name,
 		files: files,
